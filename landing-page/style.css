@@ -1,0 +1,212 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    padding: 0 110px;
+    background-color: #212429;
+    color: #9a9898;
+}
+
+header{
+    background-color: #212429;
+    color: #fff;
+    position: fixed;
+    height: 70px;
+    padding: 0px 120px 0px 120px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header #logo{
+    color: hsl(341.33deg 94.94% 46.47%);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.header #menu-items ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px;
+}
+
+.header #menu-items ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.header #menu-items ul li a:hover{
+    color: hsl(341.33deg 94.94% 46.47%);
+}
+
+.header #menu-items ul li a.active{
+    color: hsl(341.33deg 94.94% 46.47%);
+}
+
+.header #hire-me a #hire-me-btn{
+    background-color: hsl(341.33deg 94.94% 46.47%);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.header #hire-me a #hire-me-btn:hover{
+    background-color: hsl(341, 95%, 39%);
+}
+
+.header #hire-me a #hire-me-btn:focus{
+    background-color: hsl(341, 95%, 39%);
+}
+
+section#home{
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+div.home {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+    width: 100%;
+    padding: 20px auto 10px auto;
+}
+
+div.home #home-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 0px 0px 0px 0px;
+    width: 60%;
+    min-width: 300px; /* Prevents shrinking below 300px */
+}
+
+div.home #home-text #welcome{
+    font-size: 12px;
+    font-weight: 600;
+    color: #9a9898;
+}
+
+div.home #home-text #intro{
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 20px 0px 20px 0px;
+}
+
+div.home #home-text #intro #name{
+    color:hsl(341, 95%, 39%);
+}
+
+div.home #home-text #intro-text{
+    color: #9a9898;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+div.home #home-img {
+    background-color: #212429;
+    text-align: center;
+    width: 40%;
+    min-width: 250px; /* Prevents shrinking below 250px */
+}
+
+div.home #home-img img{
+     box-shadow: 0 2px 5px rgba(255, 255, 255, 0.749);
+}
+
+div.home #home-text #hero-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+    color: #9a9898;
+    padding-right: 40px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+div.home #home-text #hero-footer #find-me-with #social-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+}
+
+div.home #home-text #hero-footer #best-skills-on #skills-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+}
+
+#social-icons a img, #skills-icons img{
+    width: 30px;
+    height: 30px;
+
+}
+
+
+/* About Style */
+section#about{
+    padding: 20px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
+}
+
+div.about{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+    width: 100%;
+    padding: 20px auto 10px auto;
+}
+
+div.about #about-img{
+    background-color: #212429;
+    text-align: center;
+    width: 35%;
+    min-width: 250px; /* Prevents shrinking below 250px */
+}
+
+div.about #about-img img{
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.749);
+}
+
+div.about #about-text p#about-header{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+div.about #about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 0px 0px 0px 0px;
+    width: 60%;
+    min-width: 300px; /* Prevents shrinking below 300px */
+}
